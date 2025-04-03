@@ -1,4 +1,11 @@
-*.tex linguist-detectable=false
+# Ignore les fichiers non Python pour la détection linguistique
 *.html linguist-detectable=false
+*.css linguist-detectable=false
+*.json linguist-detectable=false
+*.db linguist-detectable=false
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.gif linguist-detectable=false
 
+# Force Python comme langage principal
 *.py linguist-language=Python
